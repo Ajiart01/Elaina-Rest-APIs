@@ -3,7 +3,7 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://api.sorabot.xyz';
+var url = 'mongodb+srv://ajiart01:Ajifu917@cluster0.zebgfie.mongodb.net/?retryWrites=true&w=majority';
 try {
 if(url == 'https://api.sorabot.xyz') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
